@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <body>
+    <div class="przycisk" id="przycisk">
+        <span class="iconify" data-icon="ion-arrow-down-c" data-inline="false"></span>
+        <p class="scroll"></p>
+    </div>
+    <div class="navbar">
+      <button id ="listaFav"> Favorite List </button> 
+      <span id = "licznik">0</span>
+      <button id ="qwerty"> Delete List </button> 
+      
+        <!-- <a> <img class= "foto "src="https://www.pikpng.com/pngl/m/8-83071_pokemon-ball-3d-png-clipart.png" alt="Pokemon Ball 3d Png Clipart@pikpng.com"></a> --> 
+          <div class="logOn">
+               <input type = "text" class = "input" id = "name" placeholder="User name...">
+               <input type = "text"  class = "input"  id = "pass" placeholder="Password..">
+               <div type = "button" class="logbtn  " id = "log">  </div>
+          </div>
+     </div> 
+    <div class="contener" id="contener">
+      <div id= "pokemon" class="pokemon"> </div>
+      <div id ="button" class="btn"> Load More </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
